@@ -6,9 +6,6 @@ body {
   line-height: 1.3em;
   padding: 1em 2em 2em 2em;
 }
-#main {
-  width: 45em;
-}
 a:link {
   color: #eee;
   font-weight: bold;
@@ -33,6 +30,9 @@ pre code {
   background-color: transparent;
 }
 @media (min-width:1250px) {
+  #main {
+    width: 45em;
+  }
   #table-of-contents {
     position: fixed;
     top: 0;
