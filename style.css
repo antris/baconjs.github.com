@@ -1,0 +1,48 @@
+body {
+  background: #335;
+  color: #ddd;
+  font-family: Helvetica, sans-serif;
+  font-size: 17px;
+  line-height: 1.3em;
+  padding: 1em 2em 2em 2em;
+}
+#main {
+  width: 45em;
+}
+a:link {
+  color: #eee;
+  font-weight: bold;
+}
+a:visited {
+  color: #bbf;
+}
+h1 small {
+  font-size: 0.5em;
+}
+p, ul, ol, pre {
+  margin-left: 1.5em;
+}
+pre {
+  padding: 1em 1.5em;
+  font-size: 14px;
+}
+pre, code {
+  background-color: rgba(0, 0, 0, 0.3);
+}
+pre code {
+  background-color: transparent;
+}
+@media (min-width:1250px) {
+  #table-of-contents {
+    position: fixed;
+    top: 0;
+    right: 0;
+    font-size: 0.8em;
+    line-height: 1.3em;
+    padding: 3em 1em 1em 1em;
+    width: 30em;
+  }
+  #table-of-contents ol {
+    margin-left: 0;
+  }
+}
